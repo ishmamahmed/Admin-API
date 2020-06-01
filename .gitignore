@@ -1,0 +1,7 @@
+db.sqlite3
+Django_Rest/__pycache__
+REST_API/migrations
+REST_API/__pycache
+*.idea
+
+

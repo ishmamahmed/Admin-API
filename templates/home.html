@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Hello, Welcome to Insight</h1> <br>
+</body>
+<body>
+{% if admins %}
+    {% for admin in admins %}
+
+        <h2>{{ admin.name }}</h2>
+        {{ admin.email }}<br>
+        {{ admin.description }}<br>
+
+    {% endfor %}
+{% endif %}
+</body>
+</html>
