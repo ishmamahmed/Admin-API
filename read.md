@@ -3,12 +3,15 @@ Admin API with CRUD features.
 Instructions:
 
 1. Install the required packages:
+
 pip install -r requirements.txt
 
 2. Create a superuser:
+
 python manage.py createsuperuser
 
 3. Run the server:
+
 python manage.py runserver
 
 4. Visit the following links to explore:
